@@ -4,23 +4,20 @@ import java.util.Scanner;
 
 public class Qes6 {
 	public static void main(String[] args) {
-		
+		Scanner scanner = new Scanner(System.in);
+
 		
 		//各クラスからメソッドの呼び出し
-		Systems systems = new Systems();
-		Player player = new Player();
+		Player player = new Player(scanner);
 		Cpu cpu = new Cpu();
 
 		//Playerが勝つまでの繰り返しwhile文
 		while (true) {
-			
-			Scanner scanner = new Scanner(System.in);
-
 			System.out.println("グー(0), チョキ(1), パー(2) を入力:");
-			int hand = scanner.nextInt(3);
-
+			
+			
 			int cpuHand = cpu.getCpu();
-			int playerHand = player.player();
+			int playerHand = player.getHand();
 			
 
 			
@@ -42,9 +39,8 @@ public class Qes6 {
 					System.out.println("あなたの勝ち！");
 					break;
 				}
-			} else {
-				System.out.println("無効な入力です。0～2の数字を入力してください"); 
-			}
+			} 
 		}
+		scanner.close();
 	}
 }
