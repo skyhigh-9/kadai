@@ -1,8 +1,11 @@
 package curriculum_C;
 
+import java.util.Scanner;
+
 public class Qes6 {
 	public static void main(String[] args) {
-
+		
+		
 		//各クラスからメソッドの呼び出し
 		Systems systems = new Systems();
 		Player player = new Player();
@@ -10,9 +13,16 @@ public class Qes6 {
 
 		//Playerが勝つまでの繰り返しwhile文
 		while (true) {
+			
+			Scanner scanner = new Scanner(System.in);
+
+			System.out.println("グー(0), チョキ(1), パー(2) を入力:");
+			int hand = scanner.nextInt(3);
 
 			int cpuHand = cpu.getCpu();
 			int playerHand = player.player();
+			
+
 			
 			if (playerHand == 0 || playerHand == 1 || playerHand == 2) {
 
