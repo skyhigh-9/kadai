@@ -44,6 +44,7 @@ public class Qes7 {
 				if (ran.nextBoolean()) {
 					first = crt;
 					second = daemon;
+			
 				} else {
 					first = daemon;
 					second = crt;

@@ -13,7 +13,7 @@ public class Daemon extends Character {
 
 	//Daemonのステータスをファイルから読み込み
 	public static Daemon loadDaemon() {
-		try (BufferedReader br = new BufferedReader(new FileReader("C:\\curriculum7\\daemon_status.txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("daemon_status.txt"))) {
 			String name = br.readLine();
 			int hp = Integer.parseInt(br.readLine());
 			int at = Integer.parseInt(br.readLine());
