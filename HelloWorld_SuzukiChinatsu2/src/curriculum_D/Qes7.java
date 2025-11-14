@@ -20,9 +20,10 @@ public class Qes7 {
 		int sp = ran.nextInt(5) + 5;
 		Character crt = new Character(text, hp, at, sp);
 
+		//ファイルの呼び出し
 		Daemon daemon = Daemon.loadDaemon();
 
-		String logPath = "C:\\curriculum7\\battle_log.txt";
+		String logPath = "src/curriculum_D/battle_log.txt";
 
 		try (FileWriter fw = new FileWriter(logPath)) {
 			fw.write("=== Player vs Daemon バトル開始 ===\n");

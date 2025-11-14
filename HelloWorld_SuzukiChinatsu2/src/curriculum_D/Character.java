@@ -2,10 +2,10 @@ package curriculum_D;
 
 
 public class Character {
-	String playerName;
-	int hp;
-	int at;
-	int sp;
+	private String playerName;
+	private int hp;
+	private int at;
+	private int sp;
 
 	public Character(String pName, int hp, int at, int sp) {
 		this.playerName = pName;
