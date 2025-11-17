@@ -1,35 +1,44 @@
 === Player vs Daemon バトル開始 ===
-プレイヤー: o (HP:60, AT:12, SP:5)
+プレイヤー: l (HP:63, AT:10, SP:7)
 敵: Daemon (HP:85, AT:12, SP:6)
 
-先攻は Daemon です！
+先攻は l です！
 
-Daemon の攻撃！ → o に 12 ダメージ！
-o の残りHP: 48
+l の攻撃！ → Daemon に 10 ダメージ！
+Daemon の残りHP: 75
 
-o の攻撃！ → Daemon に 12 ダメージ！
-Daemon の残りHP: 73
+Daemon の攻撃！ → l に 12 ダメージ！
+l の残りHP: 51
 
-Daemon の攻撃！ → o に 12 ダメージ！
-o の残りHP: 36
+l の攻撃！ → Daemon に 10 ダメージ！
+Daemon の残りHP: 65
 
-o の攻撃！ → Daemon に 12 ダメージ！
-Daemon の残りHP: 61
+Daemon の攻撃！ → l に 12 ダメージ！
+l の残りHP: 39
 
-Daemon の攻撃！ → o に 12 ダメージ！
-o の残りHP: 24
+l の攻撃！ → Daemon に 10 ダメージ！
+Daemon の残りHP: 55
 
-o の攻撃！ → Daemon に 12 ダメージ！
-Daemon の残りHP: 49
+Daemon の攻撃！ → l に 12 ダメージ！
+l の残りHP: 27
 
-Daemon の攻撃！ → o に 12 ダメージ！
-o の残りHP: 12
+l の攻撃！ → Daemon に 10 ダメージ！
+Daemon の残りHP: 45
 
-o の攻撃！ → Daemon に 12 ダメージ！
-Daemon の残りHP: 37
+Daemon の攻撃！ → l に 12 ダメージ！
+l の残りHP: 15
 
-Daemon の攻撃！ → o に 12 ダメージ！
-o の残りHP: 0
+l の攻撃！ → Daemon に 10 ダメージ！
+Daemon の残りHP: 35
+
+Daemon の攻撃！ → l に 12 ダメージ！
+l の残りHP: 3
+
+l の攻撃！ → Daemon に 10 ダメージ！
+Daemon の残りHP: 25
+
+Daemon の攻撃！ → l に 12 ダメージ！
+l の残りHP: 0
 
 
 === バトル結果 ===
